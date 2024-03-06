@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.root.json",
   "compilerOptions": {
     "rootDir": "./src",
-    "outDir": "dist",
+    "outDir": "/Users/zhiqingchen/taro-rn-oh/taroDemo/node_modules/@tarojs/rn-supporter/dist",
     "sourceMap": true,
     "types": ["node"],
     "module": "commonjs",

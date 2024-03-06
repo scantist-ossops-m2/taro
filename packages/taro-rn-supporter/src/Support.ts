@@ -132,8 +132,8 @@ export async function getMetroConfig (opt: Options = {}, toMergeConfig?: MetroCo
         return Middleware
       }
     },
-  };
-  if (!toMergeConfig) return taroMetroConfig;
+  }
+  if (!toMergeConfig) return taroMetroConfig
 
   const blockListTaro = taroMetroConfig.resolver?.blockList
   const blockListMerge = toMergeConfig.resolver?.blockList
@@ -147,5 +147,5 @@ export async function getMetroConfig (opt: Options = {}, toMergeConfig?: MetroCo
       resolveRequest: taroMetroConfig.resolver?.resolveRequest,
     }
   })
-  return finalConfig;
+  return finalConfig
 }
